@@ -1,0 +1,160 @@
+*{
+    font-family: sans-serif;
+}
+
+
+
+.div1{
+    padding: 90px 0px 110px 90px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(pexel.jpg);
+    background-position: center;
+    background-size: auto;;
+    background-color: rgba(0, 0, 0, alpha);
+}
+.divhead1{
+    font-family: sans-serif;
+    text-transform: capitalize;
+    color: white;
+    font-size: 40px;
+    width: 50px;
+}
+.divpara1{
+    font-family: sans-serif;
+    text-transform: capitalize;
+    color: white;
+    font-size: 20px;
+    width: 900px;
+    
+}
+.divbutton1{
+    color: white;
+    background-color: rgb(9, 139, 179);
+    width: 170px;
+height: 40px;
+}
+.column {
+    float: left;
+    width: 23.23%;
+    padding: 70px 100px 70px 60px;
+    text-align: center;
+    color: rgb(90, 77, 77);
+
+  }
+  .column h2 {
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 300px;
+  }
+  .column i{
+    border: 1px solid rgb(218, 210, 210);
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    padding: 10px;
+    color:  rgb(234, 90, 38);
+    font-size: 30px;
+  }
+
+  /* Clear floats after the columns */
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+    }
+}
+.sec3{
+    background-color: rgb(234, 90, 38);
+    color: white;
+    padding: 20px 0 0 200px;
+    width: 80%;
+    inset-inline: button;
+    
+}
+.sec3 button{
+color: white;
+background-color: rgb(234, 90, 38);
+border: solid;
+border-color:white ;
+width: auto;
+height: 50px;
+border-radius: 10px;
+}
+.sec4{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.1)) , url(try.jpg);
+    background-position: center;
+    background-size: auto;;
+    background-color: rgba(0, 0, 0, alpha);
+}
+
+.sec4 h2{
+    padding: 30px 200px 20px 900px;
+    font-size: 30px;
+color: white;
+}
+.sec4 p{
+    padding: 20px 200px 10px 900px;
+    font-size: 20px;
+line-height:1.5 ;
+color: white;
+}
+.para2{
+    padding: 80px 200px 20px 900px;
+    font-size: 30px;
+    color: white;
+}
+table {
+    font-family: sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+    height: 50px;
+    padding: 20px 150px 90px 150px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(105, 97, 97);
+}
+  
+  td, th {
+    border: 1px solid #d5cece;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  .prem{
+    background-color:rgb(234, 90, 38);
+    color: white;
+  }
+  .ad{
+    padding: 18px;
+  }
+ .sign{
+    padding: 20px 700px 40px 700px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(art.jpg);
+    background-position: center;
+    background-size: auto;;
+    background-color: rgba(0, 0, 0, alpha);
+    color: white;
+    font-size: 20px; 
+ }
+
+ .sign input{
+   height: 25px;
+   width: 250px;
+   border-radius: ;
+ }
+ .sign button{
+    background: rgb(57, 117, 248);
+    height: 40px;
+    width: 100px;
+    color: white;
+    border-radius: 5px;
+}
